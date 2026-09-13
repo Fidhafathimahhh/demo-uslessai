@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat with വെറുതെ AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Noto+Sans+Malayalam:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/chat.css">
+</head>
+<body class="chat-page">
+  <img class="chat-hanger" src="assets/decorations/hanging-plant.svg" alt=""><header class="site-header"><a class="brand" href="index.html"><span>🌿</span><b>വെറുതെ AI</b><small>for no reason at all.</small></a><a class="back-home" href="index.html">← Home</a></header>
+  <div class="chat-shell"><aside><a class="side-active" href="chat.html">🌿 <span>Chat</span></a><span class="side-muted">♡ <span>About</span></span><p>Ask responsibly.<br>Or don’t.</p></aside>
+    <main class="chat-main"><img class="side-plant" src="assets/decorations/plant.svg" alt=""><header class="chat-heading"><p class="eyebrow">unnecessary analysis department</p><h1>Chat with VerutheAI</h1><p>Ask anything. We probably shouldn’t.</p></header>
+      <section id="messages" class="messages" aria-live="polite"><div id="empty-state" class="empty-state"><img src="assets/mascot/mascot.svg" alt="VerutheAI mascot"><h2>Ask something completely unnecessary.</h2><div class="suggestions"><button>Should I buy another notebook?</button><button>Why does my charger disappear?</button><button>Is 11:11 actually important?</button><button>Should I rearrange my desk again?</button></div></div></section>
+      <form id="chat-form" class="chat-input"><label class="sr-only" for="question">Your question</label><input id="question" maxlength="1200" autocomplete="off" placeholder="Ask something completely unnecessary..."><button aria-label="Send question" type="submit">↑</button></form>
+    </main></div><script src="js/chat.js"></script>
+</body></html>

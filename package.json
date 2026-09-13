@@ -1,0 +1,9 @@
+{
+  "name": "veruthe-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local AI that takes small questions far too seriously.",
+  "main": "backend/server.js",
+  "scripts": { "start": "node backend/server.js", "dev": "node backend/server.js" },
+  "dependencies": { "express": "^4.21.2" }
+}
